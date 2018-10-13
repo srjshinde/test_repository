@@ -9,6 +9,7 @@ g.setup(40,g.OUT)
 g.setwarnings(False)
 b="on"
 data=firebase.FirebaseApplication("https://cloud-1-849dc.firebaseio.com/",None)
+new line is added
 while(1):
 	dat=rfid.readline()
 	print dat 
